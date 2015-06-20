@@ -4,7 +4,11 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
 
-  def Laura
-  	render text: "Laura, ruby on rails developer!"
+  def hola
+  	render text: "hola, Laura is a ruby on rails developer!"
+  end
+
+  def goodbye
+  	render text: "goodbye Laura"
   end
 end
